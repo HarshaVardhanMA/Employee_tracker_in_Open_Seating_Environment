@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Simple login</title>
+    
+      
+    <script>window.$ = window.jQuery = require('./jquery.min.js');</script>
+    <script>
+      const foreground = require('electron-process').foreground;
+      
+      var asyncModule = foreground.getModule(require('./background'));
+      
+    </script>
+  </head>
+  <body>
+    <a href="foreground.html">Back  </a>
+
+    <h1>Hello people !</h1>
+    <input type="TEXT" id="user" size="40"><br>
+    <input type="text" id="password" size="40"><br>
+    <input type="button" id="submit" value="Submit">
+  </body>
+</html>

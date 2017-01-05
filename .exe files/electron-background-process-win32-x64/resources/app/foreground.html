@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+      html {
+        text-align: center;
+      }
+      body {
+        margin-top: 150px;
+      }
+      .buttons {
+        margin-bottom: 20px;
+      }
+      #result {
+        font-size: 20px;
+      }
+      #box {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border: 1px solid black;
+        margin: 70px auto;
+      }
+    </style>
+  </head>
+  <body>
+    
+      <a href="foreground2.html">Go to foreground2 page</a>
+
+    <ul class="list-group">
+  <li class="list-group-header">
+    <input class="form-control" type="text" placeholder="Search for someone">
+  </li>
+  <li class="list-group-item">
+    <img class="img-circle media-object pull-left" src="/assets/img/avatar.jpg" width="32" height="32">
+    <div class="media-body">
+      <strong>List item title</strong>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </li>
+  <li class="list-group-item">
+    <img class="img-circle media-object pull-left" src="/assets/img/avatar2.png" width="32" height="32">
+    <div class="media-body">
+      <strong>List item title</strong>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </li>
+  ...
+</ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>window.$ = window.jQuery = require('./jquery.min.js');</script>
+    <script>
+      const foreground = require('electron-process').foreground;
+      
+      var asyncModule = foreground.getModule(require('./background'));
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "electron-background-process",
+  "version": "0.1.0",
+  "description": "Example application to demonstrate background processes in electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Smith",
+  "license": "ISC",
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "electron": "^1.4.1",
+    "electron-prebuilt": "^0.36.4",
+    "electron-process": "^0.2.0",
+    "get-mac-address": "^1.0.0",
+    "getmac": "^1.2.1",
+    "jQuery": "^1.7.4",
+    "network": "^0.3.0",
+    "node-arp": "^1.0.5",
+    "quick-local-ip": "^1.0.7",
+    "wireless": "^0.3.2"
+  }
+}
